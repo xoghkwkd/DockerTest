@@ -5,8 +5,8 @@ Ubuntu, It support base user creation and password setting.
 
 Copy the sources to your docker host and build the container, and to run.
 ```
-	docker build --rm -t nowage/ubuntu .
-	docker run -it --name u1 -e USER=nowage -e PASSWD=nowage nowage/ubuntu
+	docker build --rm -t xoghkwkd/ubuntu .
+	docker run -it --name u1 -e USER=xoghkwkd -e PASSWD=vmware1! xoghkwkd/ubuntu
 ```
 Get the port that the container is listening on:
 
@@ -16,12 +16,12 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 ad2ad96e4b2f        nowage/ubuntu      "/bin/bash"         7 seconds ago       Up 6 seconds                            u1
 ```
 
-To test, ("nowage" is username. )
+To test, ("xoghkwkd" is username. )
 ```
-	su - nowage
+	su - xoghkwkd
 ```
 To Rollback
 ```
     docker rm u1 -f
-    docker rmi nowage/ubuntu
+    docker rmi xoghkwkd/ubuntu
 ```
