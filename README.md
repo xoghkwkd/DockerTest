@@ -1,4 +1,4 @@
-# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+# 태화야 담배피러 
 # dockerfiles-ubuntu-user-adderable
 Ubuntu, It support base user creation and password setting.
 
